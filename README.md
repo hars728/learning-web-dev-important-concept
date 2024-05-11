@@ -63,3 +63,23 @@ async function consumePromiseFive(){
 
 consumePromiseFive()
 ```
+
+## 3rd 
+
+## using fetch api
+
+
+```js
+
+fetch('https://api.github.com/users/hars728')
+.then((response) => {
+    return response.json()
+})
+.then((data) => {
+    console.log(data);
+})
+.catch((error) => console.log(error))
+
+
+
+```

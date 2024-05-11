@@ -87,23 +87,11 @@ consumePromiseFive()
 
 
 
-async function getAllUsers(){
-    try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/users')
-
-        const data = await response.json()
-        console.log(data);
-    } catch (error) {
-        console.log("E: ", error);
-    }
-}
-
-getAllUsers()
 
 
 // another way means using then and catch 
 
-fetch('https://api.github.com/users/hiteshchoudhary')
+fetch('https://api.github.com/users/hars728')
 .then((response) => {
     return response.json()
 })
